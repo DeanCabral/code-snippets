@@ -33,10 +33,10 @@ class AutoCensor
                     for (int i = 0; i < word.Length; i++)
                     {
                         output += "*";
-                    }
-                    output += " ";
+                    }                    
                 }
-                else output += word + " ";
+                else output += word;
+                output += " ";
             }
 
             return output;
