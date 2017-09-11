@@ -25,7 +25,7 @@ class StringReversal
             {
                 reversed += input[i];
             }
-
+            
             return reversed;
         }
     }
