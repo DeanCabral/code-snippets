@@ -16,8 +16,8 @@ class Palindrome
 
             output = Palindrome.IsPalindrome(input) ? "This word is a Palindrome. True." : "This word is not a Palindrome. False.";
             Console.WriteLine(output);
+            
             Console.WriteLine();
-
             GetUserInput();
         }
 
