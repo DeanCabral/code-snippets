@@ -52,6 +52,7 @@ class TimeCalculator
             Console.WriteLine("Total number of Minutes: {0}", time.Minutes);
             Console.WriteLine("Total number of Seconds: {0}", time.Seconds);
             Console.WriteLine("Total number of Miliseconds: {0}", time.Milliseconds);
+            
         }
 
     }
