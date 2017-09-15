@@ -70,7 +70,7 @@ class VirtualAssistant
             switch (index)
             {
                 case 0:
-                    output += "Hello " + name + " , What's up?";
+                    output += "Hello " + name + ", What's up?";
                     break;
                 case 1:
                     output += "I'm very well. Thanks for asking!";
@@ -84,6 +84,5 @@ class VirtualAssistant
             }
 
             return output;
-
         }
     }
