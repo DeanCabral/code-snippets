@@ -2,7 +2,7 @@ class VirtualAssistant
     {
         private static string name;
         private static string time;
-        private static string[] responses = { "hello", "how are you", "what is"};
+        private static string[] keywords = { "hello", "how are you", "what is"};
 
         static void Main(string[] args)
         {
@@ -51,9 +51,9 @@ class VirtualAssistant
 
         static void GenerateResponse(string input)
         {
-            for (int i = 0; i < responses.Length; i++)
+            for (int i = 0; i < keywords.Length; i++)
             {
-                if (input.Contains(responses[i]))
+                if (input.Contains(keywords[i]))
                 {
                     Console.WriteLine(Respond(i));                    
                     break;
