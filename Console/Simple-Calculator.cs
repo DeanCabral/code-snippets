@@ -41,7 +41,7 @@ class Calculator
                     result = num1 / num2;
                     break;
             }
-
+            
             return result;
         }
     }
