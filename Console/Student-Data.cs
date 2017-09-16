@@ -52,7 +52,7 @@
             else if (percentage >= 50) output = "Lower-Second Class";
             else if (percentage >= 40) output = "Third Class";
             else output = "N/A";
-
+         
             return output;
         }
     }
