@@ -83,6 +83,6 @@ class VirtualAssistant
                     break;
             }
 
-            return output;
+            return output; 
         }
     }
