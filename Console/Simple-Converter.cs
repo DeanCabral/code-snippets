@@ -7,7 +7,7 @@ class Converter
 
         static void InitialiseSelection()
         {
-            int option = -1;
+            int option = 0;
 
             Console.WriteLine("Select Conversion Type:\n");
             Console.WriteLine("[1] Temperature\n[2] Distance\n[3] Weight");
