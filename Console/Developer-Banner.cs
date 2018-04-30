@@ -31,7 +31,7 @@ class DeveloperBanner
             Console.WriteLine(BannerBody(assignmentTitle));
             Console.WriteLine(BannerBody(developerName));
             Console.WriteLine(BannerBody(dateSubmitted));
-            Console.WriteLine(BannerBody(detailPurpose));
+            Console.WriteLine(BannerBody(generalPurpose));
             Console.WriteLine(DrawLine());
             Console.ReadLine();
         }
